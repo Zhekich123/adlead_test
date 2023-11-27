@@ -89,7 +89,7 @@
 .question_section-woman {
     position: absolute;
     margin-top: 120px;
-    bottom: -50px;
+    bottom: -70px;
     z-index: 2;
 }
 
@@ -100,7 +100,7 @@
     border-radius: 28px;
     position: absolute;
     z-index: 5;
-    margin-top: 220px;
+    margin-top: 290px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,7 +113,7 @@
     opacity: 0.5;
     background: #FFF;
     position: absolute;
-    top: -20px;
+    top: 10px;
     z-index: 3;
 }
 
@@ -124,7 +124,7 @@
     opacity: 0.5;
     background: #FFF;
     position: absolute;
-    top: 25px;
+    top: 50px;
     z-index: 2;
 }
 
@@ -326,7 +326,217 @@
 
 /* #endregion */
 /* #region media-queries */
-@media (max-width: 500px) {
+@media (max-width: 768px) {
+    .container {
+        max-width: 660px;
+    }
+
+    /* #region header */
+    .header_text {
+        font-size: 18px;
+    }
+
+    .logo_text {
+        font-size: 18px;
+    }
+
+    .logo_img {
+        width: 47%;
+    }
+
+    /* #endregion */
+    /* #region main */
+    .question_body-main {
+        width: 530px;
+        height: 396px;
+        border-radius: 20px;
+        margin-top: 0;
+        top: -200px;
+    }
+
+    .dots {
+        margin: 20px 12px 0 0;
+    }
+
+    .question_disclaimer {
+        font-size: 18px;
+    }
+
+    .question_section-woman {
+        height: 310px;
+        bottom: 150px;
+    }
+
+    .count {
+        height: 60px;
+        width: 60px;
+        font-size: 25px;
+    }
+
+    .question_text {
+        font-size: 40px;
+        padding: 0 24px;
+    }
+
+    .question_congrats-text.active {
+        padding: 0 18px;
+        font-size: 30px;
+    }
+
+    .question_button-continue.active {
+        width: 150px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .question_button-start {
+        width: 150px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .question_buttons.active {
+        width: 80%
+    }
+
+    .button_yes,
+    .button_no {
+        width: 113px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .button_yes {
+        margin-left: 41px;
+    }
+
+    .button_no {
+        margin-right: 41px;
+    }
+
+    .question_body-2 {
+        width: 485px;
+        height: 155px;
+        border-radius: 20px;
+        top: 65px;
+    }
+
+    .question_body-3 {
+        width: 450px;
+        height: 127px;
+        border-radius: 20px;
+        top: 110px;
+    }
+
+    /* #endregion */
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 860px;
+    }
+
+    /* #region header */
+    .header_text {
+        font-size: 18px;
+    }
+
+    .logo_text {
+        font-size: 18px;
+    }
+
+    .logo_img {
+        width: 47%;
+    }
+
+    /* #endregion */
+    /* #region main */
+    .question_body-main {
+        width: 530px;
+        height: 396px;
+        border-radius: 20px;
+        margin-top: 0;
+        top: -200px;
+    }
+
+    .dots {
+        margin: 20px 12px 0 0;
+    }
+
+    .question_disclaimer {
+        font-size: 18px;
+    }
+
+    .question_section-woman {
+        height: 310px;
+        bottom: 150px;
+    }
+
+    .count {
+        height: 60px;
+        width: 60px;
+        font-size: 25px;
+    }
+
+    .question_text {
+        font-size: 40px;
+        padding: 0 24px;
+    }
+
+    .question_congrats-text.active {
+        padding: 0 18px;
+        font-size: 30px;
+    }
+
+    .question_button-continue.active {
+        width: 150px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .question_button-start {
+        width: 150px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .question_buttons.active {
+        width: 80%
+    }
+
+    .button_yes,
+    .button_no {
+        width: 113px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .button_yes {
+        margin-left: 41px;
+    }
+
+    .button_no {
+        margin-right: 41px;
+    }
+
+    .question_body-2 {
+        width: 485px;
+        height: 155px;
+        border-radius: 20px;
+        top: 65px;
+    }
+
+    .question_body-3 {
+        width: 450px;
+        height: 127px;
+        border-radius: 20px;
+        top: 110px;
+    }
+
+    /* #endregion */
+}
+
+@media (max-width: 576px) {
     .container {
         max-width: 330px;
     }
